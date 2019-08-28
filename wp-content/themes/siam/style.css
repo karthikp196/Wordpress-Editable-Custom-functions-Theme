@@ -1,0 +1,186 @@
+/*
+Theme Name:siam
+Theme URI: 
+Author:Karthik
+Author URI: 
+Description: It is a theme for portfolio types
+Version: 1.0
+Text Domain:siam computing.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+#menu-main_menu li{
+    display: inline;
+}
+
+#menu-main_menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 0px;
+    margin-left: 26px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-weight: 500;
+   
+}
+
+#menu-main_menu li a:after {
+    content:"";
+    position: absolute;
+    width:0;
+    height:2px;
+    background:white;
+    bottom:0;
+    left: 0;
+    transition: .7s;
+}
+
+#menu-main_menu li a:hover::after{
+    width:100%;
+}
+
+#menu-main_menu {
+    width: 100%;
+    left: 70px;
+    position: relative;
+}
+
+.feature-info {
+    width:70%;
+}
+
+.post-meta {
+    display:none;
+}
+
+.bdp-pinterest-share-image {
+    display: none;
+}
+
+.author  {
+    display:none;
+}
+
+@media screen and (min-width: 981px) {
+    .blog_template.boxy-clean ul li.three_column {
+        width: 32.33% !important;
+        float: left;
+        border: 1px solid #ddd;
+    }
+}
+
+.layout_id_1 .blog_template.boxy-clean ul li {
+    background: #ffffff;
+    padding: 0px;
+    margin: 0px 5px;
+}
+
+.post_summary_outer {
+    padding: 0px 16px;
+}
+
+.post_content p {
+    color:#262626;
+    padding: 10px 0;
+    line-height: 22px;
+}
+.blog_template.boxy-clean ul li.three_column:hover {
+    box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+
+    transition: all .8s ease;
+    border-color: #3ecf8e;
+}
+.blog_template.boxy-clean .category-link {
+    padding:0px 15px;
+}
+
+.link-lable {
+    padding:10px 15px;
+}
+
+.wpcf7-submit{
+    background-color: #3ecf8e;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    width: 160px;
+    height: 50px;
+    padding: 14px 15px;
+    border:none;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+    
+.wpcf7-f92-o1 input[type="text"]
+{
+   
+}
+
+#contact form#contactForm input[type=text]{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+#contact form#contactForm input[type=email]{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#contact form#contactForm input[type=text]:focus {
+    border: 1px solid #3ecf8e;
+    outline: none;
+    box-shadow: none;
+    background: #e5fff3;
+}
+#contact form#contactForm input[type=email]:focus{
+    border: 1px solid #3ecf8e;
+    outline: none;
+    box-shadow: none;
+    background: #e5fff3;
+}
+   
+#contact form#contactForm textarea {
+    padding: 15px 0 0 28px;
+    font-size: 16px;
+    color: #5e629c;
+    height: 168px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#contact form#contactForm textarea:focus {
+    border: 1px solid #3ecf8e;
+    outline: none;
+    box-shadow: none;
+    background: #e5fff3;
+}
